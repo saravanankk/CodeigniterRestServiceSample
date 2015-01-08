@@ -9,23 +9,32 @@ I have created the sample application for Blood donor management application.
 
 I have created the following API's
 
-  Register Donor
+
+ <li> Register Donor</li>
+ <li>Login for register User</li>
+ <li>Update profile Information for register user</li>
+ <li>changePassword for register user</li>
+ <li>Forget password for register user</li>
+ <li>Get User detail based on userid</li>
+
+  <hr />
   
-  Login for register User
-  
-  Update profile Information for register user
-  
-  changePassword for register user
-  
-  Forget password for register user
-  
-  Get User detail based on userid
-  
-  
+  <b> Configuration </b>
   
 You need to create the database from .sql file avilable inside dbdump folder.
 
 Change the database config information in database.php (Inside config folder) file with your credential
+
+All Rest API controlers are present inside controllers/api folder
+
+I have created 3 controllers for donor management , blood request managemnt and event
+
+Example API URLS
+
+http://host/CodeigniterRestServiceSample/index.php/api/events  - list all blood donation events
+
+http://host/CodeigniterRestServiceSample/index.php/api/donor/user?id=15  -  register donor detail
+
 
 
 
